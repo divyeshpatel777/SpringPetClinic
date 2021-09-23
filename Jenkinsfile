@@ -2,7 +2,7 @@ pipeline {
     agent{label 'master'}
     tools{maven 'MAVEN_HOME'}
     stages {
-        stage ('Checkout Updated'){
+        stage ('Checkout Updated2'){
             steps {
                git branch: 'main', url: 'https://github.com/divyeshpatel777/SpringPetClinic.git'
             }
